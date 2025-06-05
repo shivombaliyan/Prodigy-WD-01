@@ -1,0 +1,61 @@
+/* Reset & Basic Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: transparent;
+    transition: background 0.3s ease;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    background: inherit;
+    padding: 15px;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background: white;
+    color: #333;
+    border-radius: 4px;
+  }
+  
+  .hero {
+    height: 100vh;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+  }
+  
+  .scrolled {
+    background: #333;
+  }
+  
